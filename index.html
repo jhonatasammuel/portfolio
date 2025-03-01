@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style/home.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+    <link rel="stylesheet" href="./style/about.css" />
+    <link rel="stylesheet" href="./style/technology.css" />
     <title>Portifólio</title>
   </head>
   <body>
@@ -33,62 +36,79 @@
 
     <div id="about">
       <h2>Sobre</h2>
-      <p id="about-first-title">Olá! Sou Jhonata Samuel</p>
-      <h3 id="about-occupation">Web Developer</h3>
-      <p>
-        Meu nome é Jhonata Samuel e sou um estudante de Engenharia de Software
-        apaixonado por tecnologia e desenvolvimento web.
-      </p>
+      <div id="about-container">
+        <img src="./assets/images/author.png" alt="imagem do autor" />
 
-      <table>
-        <tr>
-          <td>Birthday:</td>
-          <td>19 de Julho de 2002</td>
-        </tr>
-        <tr>
-          <td>Celular</td>
-          <td>+55 81 9 9717-2333</td>
-        </tr>
-        <tr>
-          <td>Email:</td>
-          <td>jhntsamuel@gmail.com</td>
-        </tr>
-        <tr>
-          <td>Localidade</td>
-          <td>Caruaru, Pernambuco, Brazil</td>
-        </tr>
-        <tr>
-          <td>Idiomas</td>
-          <td>Portuguese, English, Korean</td>
-        </tr>
-      </table>
+        <div id="about-block">
+          <p id="about-first-title">Olá! Sou Jhonata Samuel</p>
+          <h3 id="about-occupation">Web Developer</h3>
+          <p>
+            Meu nome é Jhonata Samuel e sou um estudante de Engenharia de
+            Software apaixonado por tecnologia e desenvolvimento web.
+          </p>
 
-      <button id="download">Download CV</button>
+          <div id="grid">
+            <div><p>Birthday:</p></div>
+            <div><p>19 de Julho de 2002</p></div>
+            <div><p>Celular:</p></div>
+            <div><p>+55 81 9 9717-2333</p></div>
+            <div><p>Email::</p></div>
+            <div><p>jhntsamuel@gmail.com</p></div>
+            <div><p>Localidade::</p></div>
+            <div><p>Caruaru, Pernambuco, Brazil</p></div>
+            <div><p>Idiomas</p></div>
+            <div><p>Portuguese, English, Korean</p></div>
+          </div>
+
+          <button id="download">Download CV</button>
+        </div>
+      </div>
     </div>
 
     <div id="technologies">
-      <h2>Tecnologias</h2>
-      <div id="tec-container">
-        <div>
-          <img src="" alt="" />
-        </div>
-        <div id="progress-container">
-          <p>HTML</p>
-          <div class="knowledge"></div>
-          <p>CSS</p>
-          <div class="knowledge"></div>
-          <p>BootStrap</p>
-          <div class="knowledge"></div>
-          <p>JavaScript</p>
-          <div class="knowledge"></div>
-          <p>React</p>
-          <div class="knowledge"></div>
-          <p>NodeJS</p>
-          <div class="knowledge"></div>
-          <p>PHP</p>
-          <div class="knowledge"></div>
-          <p>Python</p>
-          <div class="knowledge"></div>
+      <div id="tecnology-wide-container">
+        <h2>Tecnologias</h2>
+        <div id="tec-container">
+          <div>
+            <img
+              src="./assets/images/technologies.png"
+              alt="imagem com as tecnologias trabalhadas"
+            />
+          </div>
+          <div id="progress-container">
+            <p>HTML</p>
+            <div class="knowledge">
+              <div id="html" class="progressa-bar"></div>
+            </div>
+            <p>CSS</p>
+            <div class="knowledge">
+              <div id="css" class="progressa-bar"></div>
+            </div>
+            <p>BootStrap</p>
+            <div class="knowledge">
+              <div id="bootstrap" class="progressa-bar"></div>
+            </div>
+            <p>JavaScript</p>
+            <div class="knowledge">
+              <div id="javascript" class="progressa-bar"></div>
+            </div>
+            <p>React</p>
+            <div class="knowledge">
+              <div id="react" class="progressa-bar"></div>
+            </div>
+            <p>NodeJS</p>
+            <div class="knowledge">
+              <div id="nodejs" class="progressa-bar"></div>
+            </div>
+            <p>PHP</p>
+            <div class="knowledge">
+              <div id="php" class="progressa-bar"></div>
+            </div>
+            <p>Python</p>
+            <div class="knowledge">
+              <div id="python" class="progressa-bar"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

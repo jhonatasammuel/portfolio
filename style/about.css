@@ -1,0 +1,67 @@
+#about {
+  background-color: #1c222c;
+  height: 60vh;
+  padding: 50px;
+  padding-top: 100px;
+}
+
+#about-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-container > img {
+  width: 50rem;
+  float: left;
+}
+
+#technologies {
+  clear: left;
+}
+
+#about > h2 {
+  text-align: center;
+  color: #ffffffc2;
+  font-size: 2.7rem;
+}
+
+#about-first-title {
+  font-size: 2.6rem;
+}
+
+#about-occupation {
+  margin-top: 25px;
+  font-size: 1.6em;
+  font-weight: 400;
+  color: #1da8e5;
+}
+
+#about-occupation + p {
+  margin-top: 25px;
+  font-size: 1.4em;
+}
+
+#grid {
+  margin-top: 25px;
+  font-size: 1.4em;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+#download {
+  margin-top: 30px;
+  background-color: #1da8e5;
+  color: #1c222c;
+  font-weight: 500;
+  padding: 14px;
+  font-size: 1.2em;
+  border-radius: 25px;
+}
+
+#about-block {
+  width: 600px;
+}

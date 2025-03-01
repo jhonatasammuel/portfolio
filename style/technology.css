@@ -1,0 +1,70 @@
+#technologies {
+  background-image: url(../assets/images/technology_background.png);
+  background-size: cover;
+  padding: 100px;
+}
+
+#tecnology-wide-container > h2 {
+  font-size: 2.7rem;
+  text-align: center;
+}
+
+#tec-container {
+  display: flex;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+#tecnology-wide-container img {
+  float: left;
+  width: 600px;
+  margin-right: 100px;
+}
+
+.knowledge {
+  border-radius: 20px;
+  width: 600px;
+  height: 20px;
+  background-color: #b9b9b9;
+}
+
+.progressa-bar {
+  border-radius: inherit;
+  height: 19.8px;
+  background-color: #152842;
+}
+
+#html {
+  width: 75%;
+}
+
+#css {
+  width: 65%;
+}
+
+#bootstrap {
+  width: 25%;
+}
+
+#javascript {
+  width: 10%;
+}
+
+#react {
+  width: 4%;
+}
+
+#nodejs {
+  width: 2%;
+}
+
+#php {
+  width: 2%;
+}
+
+#python {
+  width: 25%;
+}
