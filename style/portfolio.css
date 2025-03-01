@@ -19,8 +19,8 @@
 #card-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1f 1fr;
-  gap: 40px;
+  grid-template-rows: 1f 1fr 1fr;
+  gap: 30px;
 }
 
 .project-cards {
@@ -69,4 +69,13 @@
 
 #card-container > #project-text {
   font-size: 1.2em;
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  grid-area: 3 / 3 / 4 / 4;
+  text-align: end;
+}
+
+#project-text > a {
+  color: #bfbfc2;
 }

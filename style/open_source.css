@@ -1,0 +1,33 @@
+#open-source-container {
+  background-color: #1c222c;
+  padding: 100px;
+}
+
+#open-source-container > h2 {
+  font-size: 2.7rem;
+  text-align: center;
+}
+
+/* #outer {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+} */
+
+#video-background {
+  height: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 2.5fr 2fr 2.5fr 1.5fr 1fr;
+  grid-template-rows: 1fr 1.5fr 2.5fr 1fr 2.5fr 1.5fr 1fr;
+}
+
+#top1 {
+  background-color: #757f8b;
+  grid-area: 1 / 1 / 2 / 4;
+}
+
+#top2 {
+  background-color: #757f8b;
+  grid-area: 2 / 1 / 4 / 2;
+}
