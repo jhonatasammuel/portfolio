@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./style/services.css" />
     <link rel="stylesheet" href="./style/portfolio.css" />
     <link rel="stylesheet" href="./style/open_source.css" />
+    <link rel="stylesheet" href="./style/contact_me.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
     <title>Portifólio</title>
   </head>
   <body>
@@ -269,39 +271,74 @@
     <div id="open-source-container">
       <h2>Open Source</h2>
       <div id="outer">
-        <div id="video-background">
-          <div id="top1"></div>
-          <div id="top2"></div>
-          <div id="top3"></div>
-          <div id="top4"></div>
+        <div id="inner">
+          <div id="video-background">
+            <div id="top1"></div>
+            <div id="top2"></div>
+            <div id="top3"></div>
+            <div id="top4"></div>
 
-          <!-- <video controls autoplay src="./assets/images/video.mp4"></video> -->
+            <video controls autoplay src="./assets/images/video.mp4"></video>
+          </div>
+
+          <a href="">Saiba mais sobre esse projeto</a>
         </div>
-        <!-- <a href="">Saiba mais sobre esse projeto</a> -->
       </div>
     </div>
 
     <div id="forms-page">
       <h2>Contatar</h2>
-      <form action="" method="get">
-        <label for="nome">Nome: <input type="text" id="nome" /></label>
-        <label for="email">Email: <input type="email" /></label>
-        <label for="assunto">Assunto: <input type="text" id="assunto" /></label>
-        <label for="mensagem"
-          >Assunto: <input type="text" id="mensagem"
+      <div id="form-container">
+        <form action="" method="get">
+          <!-- <label for="nome"
+          ><p>Nome:</p>
+          <input type="text" id="nome"
         /></label>
+        <label for="email"
+          ><p>Email:</p>
+          <input type="email"
+        /></label>
+        <label for="assunto"
+          ><p>Assunto:</p>
+          <input type="text" id="assunto"
+        /></label>
+        <label for="mensagem"
+          ><p>Assunto:</p>
+          <input type="text" id="mensagem"
+        /></label> -->
+          <p>Nome:</p>
+          <input type="text" id="nome" />
+          <p>Email:</p>
+          <input type="email" id="email" />
+          <p>Assunto:</p>
+          <input type="text" id="assunto" />
+          <p>Mensagem:</p>
+          <textarea rows="10" wrap="hard" name="" id="mensagem"></textarea>
+        </form>
+
         <a href="#contato"> <button id="submit">Enviar</button></a>
-      </form>
+      </div>
     </div>
   </body>
 
   <footer>
-    <p>Início</p>
-    <p>Sobre</p>
-    <p>Tecnologias</p>
-    <p>Portifólio</p>
     <div>
-      <p>&copy; 2025 Jhonata Samuel. Todos os direitos reservados.</p>
+      <p>Início</p>
+      <p>Sobre</p>
+      <p>Tecnologias</p>
+      <p>Portifólio</p>
+    </div>
+
+    <div id="division"></div>
+    <div>
+      <div>
+        <p>&copy; 2025 Jhonata Samuel. Todos os direitos reservados.</p>
+      </div>
+      <div id="icons">
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <img src="" alt="" />
+      </div>
     </div>
   </footer>
 </html>
