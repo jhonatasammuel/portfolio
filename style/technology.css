@@ -1,7 +1,8 @@
 #technologies {
   background-image: url(../assets/images/technology_background.png);
   background-size: cover;
-  padding: 100px;
+  padding: 90px;
+  background-position: center;
 }
 
 #tecnology-wide-container > h2 {
@@ -11,7 +12,7 @@
 
 #tec-container {
   display: flex;
-  height: 60vh;
+  padding: 30px;
   justify-content: center;
   align-items: center;
   font-size: 1.4em;
@@ -67,4 +68,24 @@
 
 #python {
   width: 25%;
+}
+
+@media (max-width: 1850px) {
+  #tecnology-wide-container img {
+    width: 500px;
+    margin-right: 70px;
+  }
+  #tecnology-wide-container > h2 {
+    font-size: 2.3rem;
+  }
+  .knowledge {
+    width: 500px;
+  }
+
+  #tec-container {
+    font-size: 1.2em;
+  }
+  #technologies {
+    padding: 70px;
+  }
 }

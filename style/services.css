@@ -10,7 +10,7 @@
 
 #services-container {
   display: flex;
-  height: 60vh;
+  padding: 40px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -53,4 +53,24 @@
 
 .icon + p {
   margin-top: 20px;
+}
+
+@media (max-width: 1850px) {
+  #services > h2 {
+    font-size: 2.3rem;
+  }
+
+  .card {
+    font-size: 1.1em;
+    height: auto;
+    width: auto;
+    padding: 60px;
+  }
+  .icon {
+    height: 120px;
+  }
+  #services {
+    background-color: #1c222c;
+    padding: 70px;
+  }
 }

@@ -3,6 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chonburi&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style/home.css" />
     <link rel="stylesheet" href="./style/footer.css" />
     <link rel="stylesheet" href="./style/about.css" />
@@ -14,7 +26,7 @@
     <link rel="stylesheet" href="./style/footer.css" />
     <title>Portifólio</title>
   </head>
-  <body>
+  <body class="roboto-uniquifier1">
     <div id="home">
       <header id="navigation">
         <nav>
@@ -33,39 +45,44 @@
             src="./assets/images/author.png"
             alt="Imagem do autor"
           />
-          <h1>Jhonata Samuel</h1>
+          <h1 class="chonburi-regular">Jhonata Samuel</h1>
           <h2 id="home-text">Desenvolvedor Full-Stack</h2>
         </div>
       </div>
     </div>
 
     <div id="about">
-      <h2>Sobre</h2>
-      <div id="about-container">
-        <img src="./assets/images/author.png" alt="imagem do autor" />
+      <div id="about-structure">
+        <h2>Sobre</h2>
 
-        <div id="about-block">
-          <p id="about-first-title">Olá! Sou Jhonata Samuel</p>
-          <h3 id="about-occupation">Web Developer</h3>
-          <p>
-            Meu nome é Jhonata Samuel e sou um estudante de Engenharia de
-            Software apaixonado por tecnologia e desenvolvimento web.
-          </p>
+        <div id="about-container">
+          <img src="./assets/images/author.png" alt="imagem do autor" />
 
-          <div id="grid">
-            <div><p>Birthday:</p></div>
-            <div><p>19 de Julho de 2002</p></div>
-            <div><p>Celular:</p></div>
-            <div><p>+55 81 9 9717-2333</p></div>
-            <div><p>Email::</p></div>
-            <div><p>jhntsamuel@gmail.com</p></div>
-            <div><p>Localidade::</p></div>
-            <div><p>Caruaru, Pernambuco, Brazil</p></div>
-            <div><p>Idiomas</p></div>
-            <div><p>Portuguese, English, Korean</p></div>
+          <div id="about-block">
+            <p id="about-first-title">Olá! Sou Jhonata Samuel</p>
+            <h3 id="about-occupation">Web Developer</h3>
+            <p>
+              Meu nome é Jhonata Samuel e sou um estudante de Engenharia de
+              Software apaixonado por tecnologia e desenvolvimento web.
+            </p>
+
+            <div id="grid">
+              <div><p>Birthday:</p></div>
+              <div><p>19 de Julho de 2002</p></div>
+              <div><p>Celular:</p></div>
+              <div><p>+55 81 9 9717-2333</p></div>
+              <div><p>Email::</p></div>
+              <div><p>jhntsamuel@gmail.com</p></div>
+              <div><p>Localidade::</p></div>
+              <div><p>Caruaru, Pernambuco, Brazil</p></div>
+              <div><p>Idiomas</p></div>
+              <div><p>Portuguese, English, Korean</p></div>
+            </div>
+
+            <button class="roboto-uniquifier2" id="download">
+              Download CV
+            </button>
           </div>
-
-          <button id="download">Download CV</button>
         </div>
       </div>
     </div>
@@ -179,7 +196,7 @@
                 here, content here', making it look like readable English.
               </p>
             </div>
-            <button>Saiba Mais</button>
+            <button class="roboto-uniquifier2">Saiba Mais</button>
           </div>
           <div>
             <div class="project-cards">
@@ -195,7 +212,7 @@
                 here, content here', making it look like readable English.
               </p>
             </div>
-            <button>Saiba Mais</button>
+            <button class="roboto-uniquifier2">Saiba Mais</button>
           </div>
           <div>
             <div class="project-cards">
@@ -211,7 +228,7 @@
                 here, content here', making it look like readable English.
               </p>
             </div>
-            <button>Saiba Mais</button>
+            <button class="roboto-uniquifier2">Saiba Mais</button>
           </div>
           <div>
             <div class="project-cards">
@@ -227,7 +244,7 @@
                 here, content here', making it look like readable English.
               </p>
             </div>
-            <button>Saiba Mais</button>
+            <button class="roboto-uniquifier2">Saiba Mais</button>
           </div>
           <div>
             <div class="project-cards">
@@ -243,7 +260,7 @@
                 here, content here', making it look like readable English.
               </p>
             </div>
-            <button>Saiba Mais</button>
+            <button class="roboto-uniquifier2">Saiba Mais</button>
           </div>
           <div>
             <div class="project-cards">
@@ -259,7 +276,7 @@
                 here, content here', making it look like readable English.
               </p>
             </div>
-            <button>Saiba Mais</button>
+            <button class="roboto-uniquifier2">Saiba Mais</button>
           </div>
           <div id="project-text">
             <a href=""><p>Todos os projetos</p></a>
@@ -278,7 +295,12 @@
             <div id="top3"></div>
             <div id="top4"></div>
 
-            <video controls autoplay src="./assets/images/video.mp4"></video>
+            <video
+              controls
+              loop
+              autoplay
+              src="./assets/images/video.mp4"
+            ></video>
           </div>
 
           <a href="">Saiba mais sobre esse projeto</a>
@@ -316,28 +338,67 @@
           <textarea rows="10" wrap="hard" name="" id="mensagem"></textarea>
         </form>
 
-        <a href="#contato"> <button id="submit">Enviar</button></a>
+        <a href="#contato">
+          <button class="roboto-uniquifier2" id="submit">Enviar</button></a
+        >
       </div>
     </div>
   </body>
 
   <footer>
-    <div>
-      <p>Início</p>
-      <p>Sobre</p>
-      <p>Tecnologias</p>
-      <p>Portifólio</p>
-    </div>
-
-    <div id="division"></div>
-    <div>
+    <!-- <div id="outer-container">
       <div>
-        <p>&copy; 2025 Jhonata Samuel. Todos os direitos reservados.</p>
+        <p>Início</p>
+        <p>Sobre</p>
+        <p>Tecnologias</p>
+        <p>Portifólio</p>
       </div>
-      <div id="icons">
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
+
+      <div id="division"></div>
+      <div>
+        <div id="copyright">
+          <p>&copy; 2025 Jhonata Samuel. Todos os direitos reservados.</p>
+
+          <div id="icons">
+            <a href="https://github.com/jhonatasammuel"
+              ><img src="./assets/images/github.png" alt="github logo"
+            /></a>
+            <a href="https://www.linkedin.com/in/jhonata-samuel-968085354/">
+              <img src="./assets/images/linkedin.png" alt="linkedin logo"
+            /></a>
+
+            <a href="https://www.instagram.com/"
+              ><img src="./assets/images/instagram.png" alt="instagram logo"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div id="outer-container">
+      <div id="inner-container">
+        <p>Início</p>
+        <p>Sobre</p>
+        <p>Tecnologias</p>
+        <p>Portifólio</p>
+      </div>
+
+      <div id="division"></div>
+      <div>
+        <div id="copyright">
+          <p>&copy; 2025 Jhonata Samuel. Todos os direitos reservados.</p>
+        </div>
+        <div id="icons">
+          <a href="https://github.com/jhonatasammuel"
+            ><img src="./assets/images/github.png" alt="github logo"
+          /></a>
+          <a href="https://www.linkedin.com/in/jhonata-samuel-968085354/">
+            <img src="./assets/images/linkedin.png" alt="linkedin logo"
+          /></a>
+
+          <a href="https://www.instagram.com/"
+            ><img src="./assets/images/instagram.png" alt="instagram logo"
+          /></a>
+        </div>
       </div>
     </div>
   </footer>

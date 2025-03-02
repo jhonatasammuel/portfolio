@@ -1,11 +1,13 @@
 #about {
   background-color: #1c222c;
-  height: 60vh;
   padding: 50px;
-  padding-top: 100px;
+}
+
+#about-structure {
 }
 
 #about-container {
+  margin: 20px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -21,7 +23,7 @@
   clear: left;
 }
 
-#about > h2 {
+#about-structure > h2 {
   text-align: center;
   color: #ffffffc2;
   font-size: 2.7rem;
@@ -57,11 +59,46 @@
   background-color: #1da8e5;
   color: #1c222c;
   font-weight: 500;
-  padding: 14px;
+  padding: 14px 25px;
   font-size: 1.2em;
   border-radius: 25px;
 }
 
 #about-block {
   width: 600px;
+}
+
+@media (max-width: 1850px) {
+  #about > h2 {
+    font-size: 2.2rem;
+  }
+
+  #about-first-title {
+    font-size: 2.2rem;
+  }
+
+  #about-occupation {
+    font-size: 1.3em;
+  }
+
+  #about-occupation + p {
+    font-size: 1.2em;
+  }
+  #grid {
+    font-size: 1.2em;
+
+    gap: 12px;
+  }
+  #download {
+    padding: 10px 20px;
+    font-size: 1.1em;
+  }
+  #about {
+    padding-top: 60px;
+    height: 45vh;
+  }
+  #about-container > img {
+    width: 46rem;
+    float: left;
+  }
 }
