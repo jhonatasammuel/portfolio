@@ -22,6 +22,8 @@ footer {
 
 #icons img {
   height: 30px;
+}
+#icons a {
   margin-left: 10px;
 }
 
@@ -51,7 +53,6 @@ footer {
 @media (max-width: 1248px) {
   #icons img {
     height: 23px;
-    margin-left: 10px;
   }
 }
 @media (max-width: 1000px) {
@@ -72,7 +73,6 @@ footer {
   }
   #icons img {
     height: 15px;
-    margin-left: 4px;
   }
   #inner-container {
     gap: 5px;
@@ -83,7 +83,7 @@ footer {
     align-items: start;
   }
   #outer-container {
-    padding: 9px 13px 9px 13px;
+    padding: 14px 13px 9px 13px;
   }
   #division {
     margin: 6px auto;

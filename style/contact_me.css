@@ -2,6 +2,7 @@
   background-image: url(../assets/images/contact_background.png);
   background-size: cover;
   padding: 100px;
+  height: 75vh;
 }
 
 #forms-page > h2 {
@@ -65,9 +66,9 @@ form p:nth-of-type(4) {
 #form-container {
   display: flex;
   flex-direction: column;
+  height: 100%;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
 }
 
 #submit {
