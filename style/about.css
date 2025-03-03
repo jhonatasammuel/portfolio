@@ -3,20 +3,19 @@
   padding: 50px;
 }
 
-#about-structure {
-}
-
 #about-container {
   margin: 20px;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: justify;
 }
 
 #about-container > img {
   width: 50rem;
   float: left;
+  margin-right: 30px;
 }
 
 #technologies {
@@ -100,5 +99,81 @@
   #about-container > img {
     width: 46rem;
     float: left;
+  }
+}
+@media (max-width: 1667px) {
+  #about-structure > h2 {
+    font-size: 2rem;
+  }
+
+  #about-first-title {
+    font-size: 1.5rem;
+  }
+
+  #about-occupation {
+    font-size: 1.3em;
+  }
+
+  #about-occupation + p {
+    font-size: 1.1em;
+  }
+  #download {
+    margin-top: 25px;
+
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 25px;
+  }
+  #grid {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 1475px) {
+  #about-container > img {
+    width: 44rem;
+  }
+}
+
+@media (max-width: 1290px) {
+  #about-first-title {
+    text-align: left;
+  }
+  #grid {
+    text-align: left;
+  }
+}
+@media (max-width: 1248px) {
+  #about-container > img {
+    width: 35rem;
+  }
+  #grid {
+    gap: 5px 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #about-container > img {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  #about-container > img {
+    padding-top: 10px;
+    margin: 0;
+    width: 20rem;
+  }
+  #about-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #about-block {
+    padding-top: 40px;
+    width: 300px;
+  }
+  #about {
+    height: 100%;
+    padding: 40px;
   }
 }

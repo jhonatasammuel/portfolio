@@ -20,7 +20,6 @@
 }
 
 #tecnology-wide-container img {
-  float: left;
   width: 600px;
   margin-right: 100px;
 }
@@ -87,5 +86,44 @@
   }
   #technologies {
     padding: 70px;
+  }
+}
+
+@media (max-width: 1667px) {
+  #tec-container {
+    font-size: 1.1em;
+  }
+  #tecnology-wide-container > h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1248px) {
+  .knowledge {
+    width: 400px;
+  }
+  #tecnology-wide-container img {
+    width: 350px;
+    margin-right: 50px;
+  }
+  #tec-container {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 1000px) {
+  #tecnology-wide-container img {
+    margin-right: 0;
+    margin-bottom: 25px;
+    width: 300px;
+  }
+  #tec-container {
+    flex-direction: column;
+  }
+  .knowledge {
+    width: 320px;
+  }
+  #technologies {
+    padding: 40px;
   }
 }
