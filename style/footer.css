@@ -23,8 +23,8 @@ footer {
 #icons img {
   height: 30px;
 }
-#icons a {
-  margin-left: 10px;
+#icons img {
+  margin: 0 3px 0 3px;
 }
 
 #division {
