@@ -209,4 +209,35 @@
     flex-direction: column;
     gap: 30px;
   }
+  #portfolio > h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 560px) {
+  #portfolio {
+    padding: 13px;
+  }
+  .project-cards > img {
+    width: 40vw;
+    height: auto;
+  }
+  .project-cards {
+    width: 40vw;
+  }
+  .project-cards > p {
+    font-size: 0.7em;
+  }
+  .project-cards > h3 {
+    font-size: 0.9em;
+    margin-top: 15px;
+  }
+  #card-container button {
+    margin-top: 15px;
+    padding: 4px 12px;
+    font-size: 0.7em;
+  }
+  #card-container {
+    padding: 10px;
+  }
 }

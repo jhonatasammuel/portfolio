@@ -126,4 +126,27 @@
   #technologies {
     padding: 40px;
   }
+  #tecnology-wide-container > h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 560px) {
+  #tecnology-wide-container img {
+    margin-bottom: 15px;
+    width: 50vw;
+  }
+  #tec-container {
+    font-size: 0.8em;
+  }
+  .knowledge {
+    width: 70vw;
+    height: 10px;
+  }
+  .progressa-bar {
+    height: 10px;
+  }
+  #technologies {
+    padding: 13px;
+  }
 }

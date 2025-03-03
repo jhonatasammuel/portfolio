@@ -96,6 +96,11 @@ video {
   }
 }
 @media (max-width: 1000px) {
+  #video-background {
+    display: grid;
+    grid-template-columns: 2px 13px 2.5fr 2fr 2.5fr 13px 2px;
+    grid-template-rows: 2px 13px 2.5fr 1fr 2.5fr 13px 2px;
+  }
   video {
     width: 600px;
   }
@@ -119,19 +124,22 @@ video {
   }
 }
 
-@media (min-width: 300px) and (max-width: 560px) {
+@media (max-width: 560px) {
+  #video-background {
+    display: grid;
+    grid-template-columns: 2px 13px 2.5fr 2fr 2.5fr 13px 2px;
+    grid-template-rows: 2px 13px 2.5fr 1fr 2.5fr 13px 2px;
+  }
   video {
-    width: 300px;
+    width: 70vw;
   }
   #open-source-container {
     padding: 30px;
   }
   #open-source-container > h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
-  #video-background {
-    display: grid;
-    grid-template-columns: 5px 20px 2.5fr 2fr 2.5fr 20px 5px;
-    grid-template-rows: 5px 20px 2.5fr 1fr 2.5fr 20px 5px;
+  #inner a {
+    font-size: 0.5rem;
   }
 }

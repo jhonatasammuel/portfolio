@@ -100,9 +100,7 @@
   .icon {
     height: 60px;
   }
-  .card {
-    font-size: 1em;
-  }
+
   #card-row1 {
     display: grid;
     gap: 27px;
@@ -128,5 +126,32 @@
 
   #services {
     padding: 40px;
+  }
+  .card {
+    font-size: 1em;
+    box-shadow: 5px 5px 3px rgba(214, 206, 206, 0.397);
+  }
+  #services > h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 560px) {
+  #services {
+    padding: 12px;
+  }
+
+  #card-row1 {
+    gap: 10px;
+    font-size: 0.6rem;
+
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(3, 90px);
+  }
+  .icon {
+    height: 40px;
+  }
+  .icon + p {
+    margin-top: 10px;
   }
 }

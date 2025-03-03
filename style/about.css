@@ -170,10 +170,64 @@
   }
   #about-block {
     padding-top: 40px;
-    width: 300px;
+    width: 250px;
   }
   #about {
     height: 100%;
     padding: 40px;
+  }
+  #about-structure > h2 {
+    font-size: 1.3rem;
+  }
+
+  #about-first-title {
+    font-size: 1rem;
+  }
+
+  #about-occupation {
+    font-size: 1em;
+  }
+
+  #about-occupation + p {
+    font-size: 0.8em;
+  }
+  #download {
+    margin-top: 25px;
+
+    padding: 10px 20px;
+    font-size: 0.8em;
+    border-radius: 25px;
+  }
+  #grid {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 560px) {
+  #about-container > img {
+    width: 70vw;
+    padding-top: 0px;
+  }
+  #grid {
+    gap: 1px 5px;
+  }
+  #download {
+    margin-top: 15px;
+    padding: 6px 10px;
+    font-size: 0.7em;
+    border-radius: 25px;
+  }
+  #about-block {
+    padding-top: 20px;
+    width: 70vw;
+  }
+  #about-occupation + p {
+    margin-top: 15px;
+  }
+  #about-occupation {
+    margin-top: 15px;
+  }
+  #about {
+    padding: 13px;
   }
 }

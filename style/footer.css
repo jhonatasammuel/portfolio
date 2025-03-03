@@ -62,3 +62,30 @@ footer {
     font-size: 0.6em;
   }
 }
+
+@media (max-width: 560px) {
+  #outer-container > div:nth-of-type(1) {
+    font-size: 0.5em;
+  }
+  #copyright {
+    font-size: 0.4em;
+  }
+  #icons img {
+    height: 15px;
+    margin-left: 4px;
+  }
+  #inner-container {
+    gap: 5px;
+    padding: 0;
+  }
+  #division + div {
+    padding: 0;
+    align-items: start;
+  }
+  #outer-container {
+    padding: 7px;
+  }
+  #division {
+    margin: 6px auto;
+  }
+}
