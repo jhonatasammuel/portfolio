@@ -1,3 +1,15 @@
+a {
+  outline: none;
+  border: none;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+a:focus,
+a:active {
+  outline: none;
+  border: none;
+}
+
 footer {
   width: 100%;
   background-color: #1c222c;
@@ -38,6 +50,11 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#icons a {
+  border: none;
+  outline: none;
 }
 
 @media (max-width: 1850px) {
