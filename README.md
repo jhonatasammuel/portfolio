@@ -2,6 +2,8 @@
 
 Este projeto é uma **Landing Page de Portfólio** desenvolvida para praticar design de interface, arquitetura de informação e estilização avançada com **HTML5 e CSS3**.
 
+🚀 **Visualize o projeto ao vivo aqui:** [https://jhonatasammuel.github.io/portfolio/](https://jhonatasammuel.github.io/portfolio/)
+
 ### 🛠️ Foco do Projeto
 O objetivo principal foi a criação de uma interface completa e intuitiva, simulando um ambiente real de contratação de serviços de tecnologia.
 
